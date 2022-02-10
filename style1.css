@@ -1,0 +1,70 @@
+*{
+    border:0;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: burlywood;
+}
+
+section{
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+     width:40%;
+    padding: 1rem;
+ 
+}
+#lienzo{
+    border: 2px solid steelblue;
+    width: 500px;
+    height: 300px;
+}
+
+input[type="text"]{
+    background-color:#eee;
+    font-size: 1.7rem;
+    border: 1px solid gray;
+}
+
+input[type="button"]{
+    background-color: steelblue;
+    color: white;
+    font-size: 1.7rem;
+    padding: 0.3rem;
+
+}
+
+div{
+    font-size:1.7rem;
+    padding: 0.3rem;
+    margin: 0.5rem;
+
+}
+div#frase{
+    /*border: 1px solid steelblue;*/
+    padding: 0.4rem;
+    text-align: center;
+}
+
+#contenedor{
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+nav{
+    align-content: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: steelblue;
+    
+}
+
+footer{
+    text-align: center;
+    color:brown;
+    padding-top: 100px;
+}
